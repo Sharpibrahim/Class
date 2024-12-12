@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Sharp Class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sharp Class - Student</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="dashboard">
+        <h2>Welcome to Your Learning Dashboard</h2>
+
+        <h3>Posts</h3>
+        <div class="posts">
+            <!-- Posts will be dynamically loaded here -->
+        </div>
+
+        <h3>Comment on Posts</h3>
+        <form action="/comment" method="POST">
+            <textarea name="comment" placeholder="Enter your comment..." required></textarea>
+            <button type="submit">Submit Comment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sharp Class. All rights reserved.</p>
+    </footer>
+</body>
+</html>

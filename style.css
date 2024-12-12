@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.form-section input, .form-section textarea, .form-section select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.posts {
+    margin: 20px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}

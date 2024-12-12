@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Sharp Class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sharp Class - Admin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="dashboard">
+        <h2>Admin Dashboard</h2>
+
+        <form action="/posts" method="POST">
+            <textarea name="content" placeholder="Enter your post content..." required></textarea>
+            <input type="text" name="video_url" placeholder="Enter video URL">
+            <input type="text" name="audio_url" placeholder="Enter audio URL">
+            <button type="submit">Post Content</button>
+        </form>
+
+        <h3>All Posts</h3>
+        <div class="posts">
+            <!-- Posts will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sharp Class. All rights reserved.</p>
+    </footer>
+</body>
+</html>
